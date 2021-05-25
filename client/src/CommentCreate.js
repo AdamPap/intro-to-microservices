@@ -9,7 +9,7 @@ export default function CommentCreate({ postId }) {
 
         const res = await axios({
             method: 'POST',
-            url: `http://localhost:4001/posts/${postId}/comments`,
+            url: `http://posts.com:32083/posts/${postId}/comments`,
             data: {
                 content
             }

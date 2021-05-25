@@ -11,7 +11,7 @@ export default function PostList() {
     const getPosts = async () => {
         const res = await axios({
             method: 'GET',
-            url: 'http://localhost:4002/posts'
+            url: 'http://posts.com:32083/posts'
         })
         console.log(res.data)
         setPosts(res.data)

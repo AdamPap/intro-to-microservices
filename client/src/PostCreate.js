@@ -9,7 +9,7 @@ export default function PostCreate() {
 
         const res = await axios({
             method: 'POST',
-            url: 'http://localhost:4000/posts',
+            url: 'http://posts.com:32083/posts',
             data: {
                 title
             }
